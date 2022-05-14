@@ -5,6 +5,7 @@
     padding: 0;
     outline: none;
     font-family: lato;
+    
 }
 
 .top {
@@ -67,17 +68,31 @@
     width: 100%;
     background-image: url(/image/image_1.png);
     background-repeat: no-repeat;
-    background-position: left;
-    margin: 0 0 0 -222px;
+    background-position: 93% 0;
 
 }
 
-.block__right {
-    background-color: ;
+
+
+.text {
+    width: 100%;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    
 }
 
 h1{
-    border-left: 12px solid #F16D7F;
-    padding-left: 16px;
-    flex:50%
+    
+    color: #222;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text__mode {
+    color: #F16D7F
 }
