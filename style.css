@@ -69,7 +69,7 @@
     background-image: url(/image/image_1.png);
     background-repeat: no-repeat;
     background-position: 93% 0;
-
+    flex: 0 1 50%;
 }
 
 
@@ -78,7 +78,7 @@
     width: 100%;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
-    
+    flex: 0 1 50%;
 }
 
 h1{
@@ -88,11 +88,26 @@ h1{
     font-size: 48px;
 }
 
-p {
+h2 {
     font-size: 32px;
     font-weight: 700;
+    display: inline-block;
 }
 
+
+
 .text__mode {
-    color: #F16D7F
+    color: #F16D7F;
+    display: contents;
+}
+
+.links {
+    width: 100%;
+    background-color: #fff;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+
 }
